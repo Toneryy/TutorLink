@@ -1,0 +1,73 @@
+.stats {
+    background: linear-gradient(to bottom, rgba(20,20,20,1), rgba(120,46,239,0.50));
+    margin-top: 300px;
+}
+
+.wrapper {
+    max-width: 1240px;
+    margin: 0 auto;
+
+    .statsLine {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            .number {
+                text-align: center;
+                font-size: 68px;
+                line-height: 1.17;
+                font-weight: 600;
+            }
+
+            .description {
+                margin-top: 20px;
+                text-align: center;
+                font-size: 16px;
+                line-height: 1.55;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .universities {
+        margin-top: 300px;
+        display: flex;
+        flex-direction: column;
+
+        .title {
+            font-size: 48px;
+            line-height: 1.23;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .subtitle {
+            margin-top: 40px;
+            font-size: 18px;
+            line-height: 1.55;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        .uniList {
+            margin-top: 80px;
+            display: flex;
+            gap: 135px;
+            justify-content: center;
+            align-items: center;
+
+            .image {
+                height: 100%;
+            }
+        }
+    }
+}
+
+.separator {
+    margin-top: 100px;
+    height: 1px;
+    background: #fff;
+}

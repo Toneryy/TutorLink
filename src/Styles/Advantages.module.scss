@@ -1,0 +1,97 @@
+.advantages {
+    margin-top: 200px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1240px;
+    
+    .title {
+        text-align: center;
+        font-size: 38px;
+        line-height: 1.23;
+        font-weight: 600;
+    }
+}
+
+.points {
+    margin-top: 150px;
+    display: flex;
+    gap: 30px;
+
+    .point {
+        display: flex;
+        flex-direction: column;
+
+        .circle {
+            position: relative;
+            margin: 0 auto;
+            width: 80px;
+            height: 80px;
+            border: 2px solid #fff;
+            border-width: 2px;
+            border-color: #744bc1;
+            border-radius: 100%;
+            .number {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                right: 0;
+                text-align: center;
+                transform: translateY(-50%);
+                font-size: 24px;
+                line-height: 1.23;
+                font-weight: 600;
+            }
+        }
+
+        .subtitle {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 22px;
+            line-height: 1.35;
+            font-weight: 600;
+        }
+
+        .description {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 15px;
+            line-height: 1.55;
+            font-weight: 300;
+        }
+
+    }
+}
+
+.tryForFree {
+    box-sizing: border-box;
+    display: flex;
+    margin: 100px auto 200px;
+    background-image: linear-gradient(
+        0turn,
+        rgba(255, 0, 204, 1) 0%,
+        rgba(51, 51, 153, 1) 100%
+    );
+    border: none;
+    outline: none;
+    width: 300px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 40px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+
+    &:hover {
+        background: linear-gradient(
+            0turn,
+            rgb(252, 241, 251) 0%,
+            rgba(51, 51, 153, 1) 100%
+        );
+        transform: scale(1.05); /* Лёгкое увеличение при наведении */
+    }
+}
